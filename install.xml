@@ -2,6 +2,7 @@
 
 <!-- Metadata file for AutoRescan plugin -->
 <!-- Copyright © Stuart Hickinbottom 2007-2014 -->
+<!-- Copyright © James Marsh 2020 -->
 
 <!-- This file is part of AutoRescan -->
 
@@ -26,19 +27,16 @@
 	<module>Plugins::AutoRescan::Plugin</module>
 	<version>@@VERSION@@</version>
 	<description>PLUGIN_AUTORESCAN_DESC</description>
-	<creator>Stuart Hickinbottom</creator>
-	<email>stuart@hickinbottom.com</email>
-
+	<creator>James Marsh; Stuart Hickinbottom</creator>
 	<defaultState>enabled</defaultState>
-
-	<homepageURL>http://www.hickinbottom.com/autorescan</homepageURL>
+	<homepageURL>https://github.com/doctorjames/AutoRescan</homepageURL>
 	<optionsURL>plugins/AutoRescan/settings/basic.html</optionsURL>
 	<type>2</type>
 
 	<targetApplication>
 		<id>Squeezebox Server</id>
 		<minVersion>7.7</minVersion>
-		<maxVersion>7.9+</maxVersion>
+		<maxVersion>*</maxVersion>
 	</targetApplication>
 
 	<targetPlatform>Linux</targetPlatform>
