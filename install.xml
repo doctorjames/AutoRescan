@@ -2,6 +2,7 @@
 
 <!-- Metadata file for AutoRescan plugin -->
 <!-- Copyright © Stuart Hickinbottom 2007-2014 -->
+<!-- Copyright © James Marsh 2020 -->
 
 <!-- This file is part of AutoRescan -->
 
@@ -22,23 +23,20 @@
 
 <extension>
 	<id>ef4fd3fe-0597-423e-99fe-262c3262ea80</id>
-	<name>PLUGIN_AUTORESCAN</name>
+	<name>AutoRescan</name>
 	<module>Plugins::AutoRescan::Plugin</module>
 	<version>@@VERSION@@</version>
-	<description>PLUGIN_AUTORESCAN_DESC</description>
-	<creator>Stuart Hickinbottom</creator>
-	<email>stuart@hickinbottom.com</email>
-
+	<description>AutoRescan detects changes to your music folder and automatically triggers a rescan of that directory if any files have been added, removed or changed.</description>
+	<creator>James Marsh; Stuart Hickinbottom</creator>
 	<defaultState>enabled</defaultState>
-
-	<homepageURL>http://www.hickinbottom.com/autorescan</homepageURL>
+	<homepageURL>https://github.com/doctorjames/AutoRescan</homepageURL>
 	<optionsURL>plugins/AutoRescan/settings/basic.html</optionsURL>
 	<type>2</type>
 
 	<targetApplication>
 		<id>Squeezebox Server</id>
 		<minVersion>7.7</minVersion>
-		<maxVersion>7.9+</maxVersion>
+		<maxVersion>*</maxVersion>
 	</targetApplication>
 
 	<targetPlatform>Linux</targetPlatform>
